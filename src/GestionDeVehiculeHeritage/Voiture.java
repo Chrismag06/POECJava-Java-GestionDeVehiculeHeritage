@@ -24,6 +24,8 @@ public class Voiture extends Vehicule{
 		//Réduit la vitesse actuelle
 		if (vitesse > vitesseFreinage) {
 			vitesse -= vitesseFreinage;
+		}else {
+			
 		}
 		
 		System.out.println("Freinage " + vitesseFreinage);
